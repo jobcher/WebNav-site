@@ -1,4 +1,4 @@
-baseURL = "https://nav.bioitee.com"
+baseURL = "https://nav.jobcher.com"
 languageCode = "zh-CN"
 title = "jobcher.com 网址导航"
 theme = "WebStack-Hugo"
