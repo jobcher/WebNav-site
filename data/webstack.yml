@@ -1,5 +1,3 @@
----
-
 - taxonomy: 个人网站
   icon: far fa-star
   links: 
@@ -11,18 +9,6 @@
       logo: jellyfin.jfif
       url: https://video.jobcher.com/
       description: 家庭视频资源，如要开通请联系我
-    - title: 打工人日志
-      logo: bear2.png
-      url: https://www.jobcher.com/
-      description: 个人博客分享，记录打工
-    - title: NAS 群晖
-      logo: dsm.png
-      url: https://nas.jobcher.com/
-      description: 个人NAS 群晖
-    - title: harbor仓库
-      logo: default.webp
-      url: https://hub.jobcher.com/
-      description: 个人镜像仓库
       
 - taxonomy: 常用网站
   icon: fas fa-flask fa-lg
@@ -461,7 +447,6 @@
           url: https://builtwith.com/zh/
           logo: builtwith.png
           description: 发现网站是采用什么技术创建的
-
 
 
 
