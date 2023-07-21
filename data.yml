@@ -1,12 +1,13 @@
 - taxonomy: 个人网站
   icon: far fa-star
-  links:
-  - title: 网址导航
-    logo: bear2.png
-    url: https://nav.jobcher.com/
-    description: 个人网址导航,随缘更新
-  - title: 网址导航
-    logo: bear2.png
-    url: https://nav.jobcher.com/
-    description: 个人网址导航,随缘更新
-  list: []
+  list:
+  - term: 个人分享
+    links:
+    - title: 网址导航
+      logo: bear2.png
+      url: https://nav.jobcher.com/
+      description: 个人网址导航,随缘更新
+    - title: 网址导航
+      logo: bear2.png
+      url: https://nav.jobcher.com/
+      description: 个人网址导航,随缘更新

@@ -26,8 +26,7 @@ type Result struct {
 	Taxonomy string `yaml:"taxonomy"`
 	Icon     string `yaml:"icon"`
 
-	Links []Link `yaml:"links"`
-	List  []List `yaml:"list"`
+	List []List `yaml:"list"`
 }
 
 // 嵌套一个外层列表
@@ -40,18 +39,23 @@ func main() {
 		{
 			Taxonomy: "个人网站",
 			Icon:     "far fa-star",
-			Links: []Link{
+			List: []List{
 				{
-					Title:       "网址导航",
-					Logo:        "bear2.png",
-					Url:         "https://nav.jobcher.com/",
-					Description: "个人网址导航,随缘更新",
-				},
-				{
-					Title:       "网址导航",
-					Logo:        "bear2.png",
-					Url:         "https://nav.jobcher.com/",
-					Description: "个人网址导航,随缘更新",
+					Term: "个人分享",
+					Links: []Link{
+						{
+							Title:       "网址导航",
+							Logo:        "bear2.png",
+							Url:         "https://nav.jobcher.com/",
+							Description: "个人网址导航,随缘更新",
+						},
+						{
+							Title:       "网址导航",
+							Logo:        "bear2.png",
+							Url:         "https://nav.jobcher.com/",
+							Description: "个人网址导航,随缘更新",
+						},
+					},
 				},
 			},
 		},
