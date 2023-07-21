@@ -3,11 +3,38 @@
   list:
   - term: 个人分享
     links:
-    - title: 网址导航
+    - title: 打工人日志
+      logo: bear2.png
+      url: https://www.jobcher.com/
+      description: 个人博客分享，技术分享
+    - title: job导航
       logo: bear2.png
       url: https://nav.jobcher.com/
-      description: 个人网址导航,随缘更新
-    - title: 网址导航
-      logo: bear2.png
-      url: https://nav.jobcher.com/
-      description: 个人网址导航,随缘更新
+      description: 个人网址导航，随缘更新
+    - title: NAS 群晖
+      logo: dsm.png
+      url: https://nas.jobcher.com/
+      description: 个人NAS 群晖
+    - title: jellyfin
+      logo: jellyfin.jfif
+      url: https://video.jobcher.com/
+      description: 家庭视频资源，如要开通请联系我
+- taxonomy: 福利分享
+  icon: fas fa-film fa-lg
+  list:
+  - term: 影视资源
+    links:
+    - title: 厂长影视
+      logo: video.png
+      url: https://www.czspp.com/
+      description: 厂长影视，电影资源在线播放
+    - title: 400影视
+      logo: 电影天堂.png
+      url: https://400mov.com/
+      description: 400影视，无广告（内含福利）
+  - term: 游戏资源
+    links:
+    - title: humblebundle
+      logo: humblebundle.png
+      url: https://www.humblebundle.com/
+      description: 游戏慈善包网站

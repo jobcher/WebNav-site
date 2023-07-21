@@ -1,6 +1,7 @@
 package main
 
 import (
+	"database/sql"
 	"fmt"
 	"io/ioutil"
 	"log"
@@ -11,62 +12,67 @@ import (
 
 // 定义查询结果对应的结构体
 type Link struct {
-	Title       string `yaml:"title"`
-	Logo        string `yaml:"logo"`
-	Url         string `yaml:"url"`
-	Description string `yaml:"description"`
+	Title       string
+	Logo        string
+	Url         string
+	Description string
 }
 
 type List struct {
-	Term  string `yaml:"term"`
-	Links []Link `yaml:"links"`
+	Term  string
+	Links []Link
 }
 
 type Result struct {
-	Taxonomy string `yaml:"taxonomy"`
-	Icon     string `yaml:"icon"`
-
-	List []List `yaml:"list"`
+	Taxonomy string
+	Icon     string
+	List     []List
 }
 
 // 嵌套一个外层列表
 type Results []Result
 
 func main() {
+	db, _ := sql.Open("sqlite3", "./nav.db")
+	rows, _ := db.Query("SELECT DISTINCT taxonomy,icon FROM nav_list")
 
-	// 假设从数据库查到的数据如下
-	data := Results{
-		{
-			Taxonomy: "个人网站",
-			Icon:     "far fa-star",
-			List: []List{
-				{
-					Term: "个人分享",
-					Links: []Link{
-						{
-							Title:       "网址导航",
-							Logo:        "bear2.png",
-							Url:         "https://nav.jobcher.com/",
-							Description: "个人网址导航,随缘更新",
-						},
-						{
-							Title:       "网址导航",
-							Logo:        "bear2.png",
-							Url:         "https://nav.jobcher.com/",
-							Description: "个人网址导航,随缘更新",
-						},
-					},
-				},
-			},
-		},
+	var data Results
+
+	// 遍历查询结果
+	for rows.Next() {
+		var result Result
+		rows.Scan(&result.Taxonomy, &result.Icon)
+
+		// 查询子项
+		rows2, _ := db.Query("SELECT DISTINCT term FROM nav_list WHERE taxonomy=?", result.Taxonomy)
+		for rows2.Next() {
+			var list List
+			rows2.Scan(&list.Term)
+
+			// 查询子项的链接
+			rows3, _ := db.Query("SELECT title,logo,url,description FROM nav_list WHERE taxonomy=? AND term=?", result.Taxonomy, list.Term)
+			for rows3.Next() {
+				var link Link
+				rows3.Scan(&link.Title, &link.Logo, &link.Url, &link.Description)
+				list.Links = append(list.Links, link)
+			}
+			rows3.Close()
+
+			result.List = append(result.List, list)
+		}
+		rows2.Close()
+
+		data = append(data, result)
 	}
+
+	fmt.Println(data)
 
 	// 将数据转换成yaml格式
 	yamlData, err := yaml.Marshal(&data)
 	if err != nil {
 		log.Fatalf("error: %v", err)
 	}
-	ioutil.WriteFile("data.yml", yamlData, 0644)
+	ioutil.WriteFile("./data/webstack.yml", yamlData, 0644)
 
 	fmt.Println("生成成功!")
 }
