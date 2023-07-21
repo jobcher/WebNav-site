@@ -38,3 +38,30 @@
       logo: humblebundle.png
       url: https://www.humblebundle.com/
       description: 游戏慈善包网站
+  - term: 其他资源
+    links:
+    - title: MSDN
+      logo: msdn.png
+      url: https://msdn.itellyou.cn/
+      description: MSDN，windows镜像下载
+- taxonomy: 技术工具
+  icon: far fa-folder-open fa-lg
+  list:
+  - term: 区块链
+    links:
+    - title: IPFS
+      logo: IPFS.png
+      url: https://ipfs.tech/
+      description: IPFS官网，WEB3.0网站
+    - title: filebase
+      logo: filebase.png
+      url: https://console.filebase.com/
+      description: filebase官网，WEB3.0存储站点
+    - title: ETH
+      logo: eth.png
+      url: https://ethereum.org/
+      description: 以太坊官网，加密货币
+    - title: brave浏览器
+      logo: brave.png
+      url: https://brave.com/
+      description: brave浏览器原生支持WEB3.0
