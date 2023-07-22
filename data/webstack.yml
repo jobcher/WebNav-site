@@ -1,464 +1,105 @@
 - taxonomy: 个人网站
   icon: far fa-star
-  links: 
-    - title: 网址导航
-      logo: bear2.png
-      url: https://nav.jobcher.com/
-      description: 个人网址导航，随缘更新
-    - title: jellyfin
-      logo: jellyfin.jfif
-      url: https://video.jobcher.com/
-      description: 家庭视频资源，如要开通请联系我
+  list:
+  - term: 个人分享
+    links:
     - title: 打工人日志
       logo: bear2.png
       url: https://www.jobcher.com/
-      description: 个人博客分享，记录打工
+      description: 个人博客分享，技术分享
+    - title: job导航
+      logo: bear2.png
+      url: https://nav.jobcher.com/
+      description: 个人网址导航，随缘更新
     - title: NAS 群晖
       logo: dsm.png
       url: https://nas.jobcher.com/
       description: 个人NAS 群晖
-    - title: harbor仓库
-      logo: default.webp
-      url: https://hub.jobcher.com/
-      description: 个人镜像仓库
-      
-- taxonomy: 常用网站
-  icon: fas fa-flask fa-lg
-  list: 
-    - term: 娱乐
-      links:
-        - title: RSS阅读
-          logo: RSS.jfif
-          url: https://www.readdig.com/
-          description: RSS阅读订阅
-        - title: V2EX
-          logo: v2ex.png
-          url: https://www.v2ex.com/?r=jobcher
-          description: V2EX开发者论坛
-        - title: youtube
-          logo: youtube.png
-          url: https://www.youtube.com/
-          description: youtube视频网站
-        - title: Google
-          logo: google.png
-          url: https://www.google.com/
-          description: Google 搜索引擎
-        - title: 宜家在线设计
-          logo: ikea.png
-          url: https://www.ikea.cn/cn/zh/planners/
-          description: 宜家在线设计工具
-        - title: 慢慢买（购物比价）
-          logo: taobao.png
-          url: http://tool.manmanbuy.com/HistoryLowest.aspx
-          description: 查商品历史价格走势。
-        - title: Notion
-          logo: notion.png
-          url: https://www.notion.so/
-          description: 在线笔记、知识库
-        - title: Z-Library
-          logo: zlib.jfif
-          url: https://z-lib.org/
-          description: 全球最大免费电子书下载站 
-        - title: 无线电波资料
-          logo: default.webp
-          url: https://www.qsl.net/bg3tt/zl/zlsj.htm
-          description: 业余无线电改造，自建无线电通信        
-        - title: 🍊新奇士
-          logo: 阿里云盘.png
-          url: https://www.synckeys.com/
-          description: sync p2p资源共享🍊
-        - title: 阿里云免费企业邮箱
-          logo: 阿里云.jpg
-          url: https://common-buy.aliyun.com/?spm=5176.8071678.J_3365434990.1.22a55477TycNB9&commodityCode=alimail&specCode=lx_18482&request=%7B%22ord_time%22:%223:Year%22,%22account_num%22:%225%22%7D#/buy
-          description: 阿里云免费企业邮箱申请
-        - title: 推送到kindle
-          logo: kindle.jfif
-          url: https://www.amazon.com/sendtokindle
-          description: kindle(美区)发送地址，最大200MB
-
-
-
-    - term: 工作
-      links:
-        - title: Cloudflare
-          logo: cloudflare.png
-          url: https://www.cloudflare.com/
-          description: Cloudflare CDN加速、域名解析
-        - title: Oracle-Cloud
-          logo: oracle.png
-          url: https://cloud.oracle.com/
-          description: Oracle-Cloud云
-        - title: Github
-          logo: github.png
-          url: https://www.github.com/
-          description: Github全球最大同性交流平台，开源社区
-        - title: dockerhub
-          logo: docker.png
-          url: https://hub.docker.com/
-          description: docker镜像仓库
-        - title: 腾讯云
-          logo: 腾讯云.jpg
-          url: https://cloud.tencent.com/
-          description: 产业智变，云启未来。
-        - title: 职友集
-          logo: zhiyouji.png
-          url: https://www.jobui.com/
-          description: 求职信息查询
-        - title: 律大师
-          logo: lvdashi.png
-          url: https://www.lvdashi110.com
-          description: 免费法律咨询
-        - title: JuiceFS
-          logo: juice.svg
-          url: https://juicefs.com/
-          description: 兼容 POSIX、HDFS 和 S3 协议的分布式文件系统
-        - title: draw.io
-          logo: drawio.png
-          url: https://draw.io/
-          description: 软件工程画图工具
-        - title: ping.pe
-          logo: default.webp
-          url: https://ping.pe/
-          description: 获取公网IP在全球的服务状态
-        - title: leetcode
-          logo: lecode.png
-          url: https://leetcode.cn/
-          description: 面试刷题平台
-        - title: python官方在线文档
-          logo: python.jpeg
-          url: https://docs.python.org/zh-cn/3/tutorial/index.html
-          description: python官方在线文档
-        - title: godaddy
-          logo: godaddy.png
-          url: https://www.godaddy.com
-          description: 域名注册服务商
-        - title: 清华镜像站
-          logo: tuna.png
-          url: https://mirrors.tuna.tsinghua.edu.cn/
-          description: 清华大学开源软件镜像站
-        - title: 全球 OID 参考数据库
-          logo: default.webp
-          url: http://oidref.com/
-          description: 这是为互联网用户发布的完整的世界 OID 数据库   
-        - title: Conda
-          logo: CONDA.png
-          url: https://www.anaconda.com/
-          description: 开源跨平台环境管理系统   
-        - title: rustdesk
-          logo: rushdesk.png
-          url: https://rustdesk.com/
-          description: 开源虚拟与远程桌面基础架构  
-        - title: fir.im
-          logo: default.webp
-          url: https://www.betaqr.com/
-          description: APP发布测试平台
-          
-
-
-
-- taxonomy: 新闻资讯
-  icon: fas fa-pencil-alt fa-lg
-  list: 
-    - term: 国内新闻
-      links:
-        - title: 新华社
-          logo: xinhuanew.png
-          url: http://www.xinhuanet.com/
-          description: 新华社，共产党党媒
-        - title: 澎湃新闻
-          logo: penpai.png
-          url: https://www.thepaper.cn/
-          description: 澎湃新闻
-        - title: 新浪新闻
-          logo: xinlang.webp
-          url: https://www.sina.com.cn/
-          description: 新浪新闻
-        - title: 人民日报
-          logo: renming.jfif
-          url: http://www.people.com.cn/
-          description: 人民日报，党报
-        - title: 宁波日报
-          logo: ningbonews.png
-          url: http://daily.cnnb.com.cn/
-          description: 宁波日报电子报刊
-        - title: 宁波图书馆
-          logo: nblib.png
-          url: https://www.nblib.cn/
-          description: 宁波图书馆
-      
-    - term: 国外新闻
-      links:
-        - title: BBC中文
-          logo: BBC_CN.png
-          url: https://www.bbc.com/zhongwen/simp
-          description: BBC中文新闻站
-        - title: 华尔街日报
-          logo: wsj.png
-          url: https://cn.wsj.com/
-          description: 华尔街日报中文版
-        - title: VOA
-          logo: VOA.jfif
-          url: https://www.voachinese.com/
-          description: 美国之音VOA新闻站
-        - title: Hacker News
-          logo: hackernew.png
-          url: https://news.ycombinator.com/newest
-          description: 黑客新闻-有相关技术新闻
-
-- taxonomy: 各类资源
+    - title: jellyfin
+      logo: jellyfin.jfif
+      url: https://video.jobcher.com/
+      description: 家庭视频资源，如要开通请联系我
+- taxonomy: 福利分享
   icon: fas fa-film fa-lg
-  list: 
-    - term: 在线播放
-      links:
-        - title: 厂长影视
-          logo: video.png
-          url: https://www.czspp.com/
-          description: 厂长影视，电影资源在线播放
-        - title: 抖音网页版
-          logo: douyin.jfif
-          url: https://www.douyin.com/
-          description: 抖音网页版
-        - title: 400影视
-          logo: 电影天堂.png
-          url: https://400mov.com/
-          description: 400影视，无广告（内含福利）
-        - title: 图片查动漫
-          logo: 哔哩哔哩.png
-          url: https://trace.moe/
-          description: 日本动画图片识别
-        - title: uump4电影
-          logo: uump4.png
-          url: https://www.uump4.net/
-          description: uump4电影下载
-        - title: 末日动漫资源库
-          logo: 哔哩哔哩.png
-          url: https://share.acgnx.se/
-          description: 末日动漫资源库
-        - title: 4kvm
-          logo: 4kvm.png
-          url: https://www.4kvm.com/
-          description: 4K高清影视播放
-
-    - term: 游戏资源
-      links:
-        - title: humblebundle
-          logo: humblebundle.png
-          url: https://www.humblebundle.com/
-          description: 游戏慈善包网站
-        - title: Steam社区API
-          logo: steam.jfif
-          url: https://steamcommunity.com/dev
-          description: Steam社区API
-        - title: appstorrent
-          logo: appstorrent.jfif
-          url: https://appstorrent.ru/
-          description: 俄语破解MacOS软件下载
-        - title: 马克菠萝
-          logo: macbl.png
-          url: https://www.macbl.com/
-          description: 菠萝MacOS软件下载
-        - title: crazy games
-          logo: crazygames.png
-          url: https://www.crazygames.com/
-          description: 网页游戏平台
-        - title: 风灵月影官网
-          logo: fling.jpg
-          url: https://flingtrainer.com/
-          description: 风灵月影游戏作弊器下载
-
-    - term: AI资源
-      links:
-        - title: PicFinder
-          logo: 210d6-www.ailabtools.com.png
-          url: https://picfinder.ai/
-          description: 一个无限的图像生成工具，永远免费。
-        
-        - title: Ai Valley
-          logo: Aivalley.webp
-          url: https://aivalley.ai/
-          description: AI 工具和提示和导航
-
-        - title: vercel
-          logo: vercel.png
-          url: https://vercel.com/
-          description: Vercel的前端云为开发人员提供了框架，工作流程和基础架构，以构建更快，更个性化的Web。
-        
-  
-
-
-
-
-    - term: 资源下载
-      links:
-        - title: MP4电影下载
-          logo: video.png
-          url: https://www.domp4.cc/
-          description: MP4电影下载，磁力链接
-        - title: MSDN
-          logo: msdn.png
-          url: https://msdn.itellyou.cn/
-          description: MSDN，windows镜像下载
-        - title: 豆瓣读书
-          logo: douban.jfif
-          url: https://book.douban.com/
-          description: 豆瓣读书
-        - title: pinterest
-          logo: pinterest.png
-          url: https://www.pinterest.com/
-          description: 图片社交平台
-        - title: instagram
-          logo: instagram.jfif
-          url: https://www.instagram.com/
-          description: 图片社交平台
-        - title: pexels
-          logo: pexels.png
-          url: https://www.pexels.com/zh-cn/
-          description: 免费图片下载（可商用）
-        - title: 腾讯软件下载平台
-          logo: qqdown.jfif
-          url: https://pc.qq.com/
-          description: 软件下载平台，简单下载
-        - title: 音乐直链搜索
-          logo: music.png
-          url: https://music.liuzhijin.cn/
-          description: 音乐直链搜索
-        - title: 666暗网导航
-          logo: crx4chrome.png
-          url: https://onion666.com/index.html
-          description: 暗网最受欢迎网址导航（Onion域名）
-        - title: 易书
-          logo: Medialoot.png
-          url: https://yibook.org/
-          description: 下载电子书籍
-
-
-
-
+  list:
+  - term: 影视资源
+    links:
+    - title: 厂长影视
+      logo: video.png
+      url: https://www.czspp.com/
+      description: 厂长影视，电影资源在线播放
+    - title: 400影视
+      logo: 电影天堂.png
+      url: https://400mov.com/
+      description: 400影视，无广告（内含福利）
+  - term: 游戏资源
+    links:
+    - title: humblebundle
+      logo: humblebundle.png
+      url: https://www.humblebundle.com/
+      description: 游戏慈善包网站
+  - term: 其他资源
+    links:
+    - title: MSDN
+      logo: msdn.png
+      url: https://msdn.itellyou.cn/
+      description: MSDN，windows镜像下载
 - taxonomy: 技术工具
   icon: far fa-folder-open fa-lg
-  list: 
-    - term: 技术网站
-      links:
-        - title: 恩山无线论坛
-          url: https://www.right.com.cn/forum/
-          logo: enshan.jfif
-          description: 恩山无线论坛，路由器网络技术论坛
-        - title: 鸿鹄论坛
-          url: https://bbs.hh010.com/
-          logo: honghu.png
-          description: 鸿鹄论坛，计算机类考证
-        - title: 666java资源站
-          url: https://666java.com/
-          logo: 666java.png
-          description: 666java资源站
-        - title: 吾爱破解论坛
-          url: https://www.52pojie.cn/
-          logo: 52pojie.jfif
-          description: 吾爱破解论坛，破解软件，逆向工程
-        - title: Stack Overflow
-          url: https://stackoverflow.com/
-          logo: StackOverflow.png
-          description: 解决bug技术社区
-        - title: 菜鸟教程
-          url: https://www.runoob.com/
-          logo: cainiao.jfif
-          description: 菜鸟教程
-        - title: 卡饭论坛
-          url: https://bbs.kafan.cn/
-          logo: kafan.jfif
-          description: 卡饭论坛，病毒技术论坛
-        - title: OBS
-          url: https://obsproject.com/
-          logo: obs.jfif
-          description: OBS直播推流软件
-        - title: Let's Encrypt
-          url: https://letsencrypt.org/
-          logo: letsencrypt.png
-          description: 免费SSL证书网站
-        - title: 爱自由
-          url: https://safing.io/
-          logo: 20678162.png
-          description: 隐私监管防火墙
-        - title: 酷乐家
-          url: https://www.kujiale.com/
-          logo: 酷乐家.png
-          description: 在线3D云设计平台
-        - title: HamZone社区
-          url: https://bbs.hamzone.cn/
-          logo: homezone.jfif
-          description: 中国业余无线电爱好者交流社区
-        - title: IFIXIT
-          url: https://zh.ifixit.com/
-          logo: ifixit.jfif
-          description: 免费在线修理手册
-
-
-
-    - term: WEB3.0
-      links:
-        - title: IPFS
-          url: https://ipfs.tech/
-          logo: IPFS.png
-          description: IPFS官网，WEB3.0网站
-        - title: filebase
-          url: https://console.filebase.com/
-          logo: filebase.png
-          description: filebase官网，WEB3.0存储站点
-        - title: ETH
-          url: https://ethereum.org/
-          logo: eth.png
-          description: 以太坊官网，加密货币
-        - title: brave浏览器
-          logo: brave.png
-          url: https://brave.com/
-          description: brave浏览器原生支持WEB3.0
-        - title: IPFS公共网关
-          url: https://ipfs.github.io/public-gateway-checker/
-          logo: IPFS.png
-          description: IPFS公共网关在线检测
-
-    - term: 技术博客
-      links:
-        - title: Bboysoul's Blog
-          url: https://www.bboy.app/
-          logo: Bboysoul.png
-          description: Bboysoul's Blog
-        - title: 阮一峰的个人网站
-          url: https://www.ruanyifeng.com/
-          logo: ruanyifeng.ico
-          description: 阮一峰的个人网站
-        - title: 廖雪峰的官方网站
-          url: https://www.liaoxuefeng.com/
-          logo: 书栈网.jpg
-          description: 廖雪峰的官方网站
-        - title: 美团技术团队
-          url: https://tech.meituan.com/
-          logo: meituan.png
-          description: 美团技术团队
-        - title: 唐玥璨的博客
-          url: https://www.tangyuecan.com/
-          logo: default.webp
-          description: 唐玥璨 | 博客
-
-
-    - term: 在线工具
-      links:
-        - title: bitwarden
-          url: https://bitwarden.com/
-          logo: bitwarden.jfif
-          description: 密码库
-        - title: ChinaStockWebService
-          url: http://www.webxml.com.cn/WebServices/ChinaStockWebService.asmx
-          logo: awesome_design_systems.png
-          description: 中国股票行情数据 WEB 服务
-        - title: 注册会计师全国统一考试练习试卷
-          url: http://cpademo.cicpa.org.cn/
-          logo: flinto.png
-          description: 注册会计师全国统一考试练习试卷
-        - title: builtwith
-          url: https://builtwith.com/zh/
-          logo: builtwith.png
-          description: 发现网站是采用什么技术创建的
-
-
-
+  list:
+  - term: 区块链
+    links:
+    - title: IPFS
+      logo: IPFS.png
+      url: https://ipfs.tech/
+      description: IPFS官网，WEB3.0网站
+    - title: filebase
+      logo: filebase.png
+      url: https://console.filebase.com/
+      description: filebase官网，WEB3.0存储站点
+    - title: ETH
+      logo: eth.png
+      url: https://ethereum.org/
+      description: 以太坊官网，加密货币
+    - title: brave浏览器
+      logo: brave.png
+      url: https://brave.com/
+      description: brave浏览器原生支持WEB3.0
+- taxonomy: 最新资讯
+  icon: fas fa-pencil-alt fa-lg
+  list:
+  - term: 常用工具
+    links:
+    - title: RSS阅读
+      logo: RSS.jfif
+      url: https://www.readdig.com/
+      description: RSS阅读订阅
+    - title: V2EX
+      logo: v2ex.png
+      url: https://www.v2ex.com/?r=jobcher
+      description: V2EX开发者论坛
+  - term: 国内新闻
+    links:
+    - title: 新华社
+      logo: xinhuanew.png
+      url: http://www.xinhuanet.com/
+      description: ' 新华社，共产党党媒'
+  - term: 国外新闻
+    links:
+    - title: Hacker News
+      logo: hackernew.png
+      url: https://news.ycombinator.com/newest
+      description: 黑客新闻-有相关技术新闻
+    - title: BBC中文
+      logo: BBC_CN.png
+      url: https://www.bbc.com/zhongwen/simp
+      description: BBC中文新闻站
+- taxonomy: 每日资源
+  icon: fas fa-flask fa-lg
+  list:
+  - term: 分享一下
+    links:
+    - title: rustdesk
+      logo: rushdesk.png
+      url: https://rustdesk.com/
+      description: 开源虚拟与远程桌面基础架构
