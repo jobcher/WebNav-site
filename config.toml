@@ -1,6 +1,6 @@
 baseURL = "https://nav.jobcher.com"
 languageCode = "zh-CN"
-title = "jobcher.com 网址导航"
+title = "job导航 | 网址导航"
 theme = "WebStack-Hugo"
 preserveTaxonomyNames = true
 disablePathToLower = true
@@ -33,7 +33,7 @@ publishDir = "docs"
 
 [params.images]
     favicon           = "assets/images/logos/bear2.png"
-    searchImageL      = "https://cdn.jsdelivr.net/gh/jobcher/blog@master/static/images/wallpaper/2023-07-18.jpg.webp"		#搜索部分浅色背景图
+    searchImageL      = "https://cdn.jsdelivr.net/gh/jobcher/blog@master/static/images/wallpaper/2023-07-22.jpg.webp"		#搜索部分浅色背景图
     searchImageD      = "https://cdn.jsdelivr.net/gh/jobcher/blog@master/static/images/wallpaper/2023-07-21.jpg.webp"		#搜索部分深色背景图
     logoExpandLight   = "assets/images/logo_bear@2x.png"
     logoExpandDark    = "assets/images/logo_dark_bear@2x.png"
