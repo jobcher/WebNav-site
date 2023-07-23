@@ -84,6 +84,14 @@
       logo: xinhuanew.png
       url: http://www.xinhuanet.com/
       description: ' 新华社，共产党党媒'
+    - title: 宁波日报
+      logo: ningbonews.png
+      url: http://daily.cnnb.com.cn/
+      description: 宁波日报电子报刊
+    - title: 人民日报
+      logo: renming.jfif
+      url: http://www.people.com.cn/
+      description: 人民日报，党报
   - term: 国外新闻
     links:
     - title: Hacker News
@@ -94,6 +102,14 @@
       logo: BBC_CN.png
       url: https://www.bbc.com/zhongwen/simp
       description: BBC中文新闻站
+    - title: 华尔街日报
+      logo: wsj.png
+      url: https://cn.wsj.com/
+      description: 华尔街日报中文版
+    - title: VOA
+      logo: VOA.jfif
+      url: https://www.voachinese.com/
+      description: 美国之音VOA新闻站
 - taxonomy: 每日资源
   icon: fas fa-flask fa-lg
   list:
