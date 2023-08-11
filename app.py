@@ -16,7 +16,7 @@ DATABASE = 'nav.db'
 def index():
     conn = sqlite3.connect(DATABASE)
     c = conn.cursor()
-    c.execute("SELECT * FROM nav_list")
+    c.execute("SELECT * FROM nav_list ORDER BY id DESC")
     rows = c.fetchall()
     conn.close()
     return render_template('index.html', navs=rows)
