@@ -24,11 +24,11 @@ jobs:
           go run main.go
       - name: Commit files
         run: |
+          git branch -M dev
           git config --local user.email "13028911306@163.com"
           git config --local user.name "jobcher"
           git add .
           git commit -m "update"
-          git branch -M dev
           git push origin dev
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
