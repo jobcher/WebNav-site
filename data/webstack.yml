@@ -60,6 +60,10 @@
       logo: ikea.png
       url: https://www.ikea.cn/cn/zh/planners/
       description: 宜家在线设计工具
+    - title: 推送到kindle
+      logo: kindle.jfif
+      url: https://www.amazon.com/sendtokindle
+      description: kindle(美区)发送地址，最大200MB
 - taxonomy: 技术工具
   icon: far fa-folder-open fa-lg
   list:
