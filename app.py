@@ -112,7 +112,8 @@ def execute_command():
 
         subprocess.run(['git', 'add', '.'])
         subprocess.run(['git', 'commit', '-m', commit_message])
-        subprocess.run(['git', 'push'])
+        result = subprocess.run(['git', 'push'])
+        output = result.stdout
         return render_template('index.html', output=output)
 
 if __name__ == '__main__':
