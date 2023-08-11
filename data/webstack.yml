@@ -56,6 +56,10 @@
       logo: msdn.png
       url: https://msdn.itellyou.cn/
       description: MSDN，windows镜像下载
+    - title: 宜家在线设计
+      logo: ikea.png
+      url: https://www.ikea.cn/cn/zh/planners/
+      description: 宜家在线设计工具
 - taxonomy: 技术工具
   icon: far fa-folder-open fa-lg
   list:
@@ -77,6 +81,12 @@
       logo: brave.png
       url: https://brave.com/
       description: brave浏览器原生支持WEB3.0
+  - term: 公有资源
+    links:
+    - title: 阿里云免费企业邮箱
+      logo: 阿里云.jpg
+      url: https://common-buy.aliyun.com/?spm=5176.8071678.J_3365434990.1.22a55477TycNB9&commodityCode=alimail&specCode=lx_18482&request=%7B%22ord_time%22:%223:Year%22,%22account_num%22:%225%22%7D#/buy
+      description: 阿里云免费企业邮箱申请
 - taxonomy: 最新资讯
   icon: fas fa-pencil-alt fa-lg
   list:
