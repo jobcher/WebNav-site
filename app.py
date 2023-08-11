@@ -110,6 +110,7 @@ def execute_command():
         # 执行 "go" 命令
         commit_message = 'Commit message here'
 
+        subprocess.run(['git', 'pull'])
         subprocess.run(['git', 'add', '.'])
         subprocess.run(['git', 'commit', '-m', commit_message])
         result = subprocess.run(['git', 'push'])
