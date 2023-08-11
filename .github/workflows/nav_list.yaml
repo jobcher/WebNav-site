@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  github_trend:
+  nav_list:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
