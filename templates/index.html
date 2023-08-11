@@ -10,7 +10,13 @@
         <h2>导航列表</h2>
         <a href="{{ url_for('add') }}"><button class="custom-btn btn-11" >添加导航<div class="dot"></div></button></a>
         <a href="/"><button class="custom-btn btn-11" >生成导航文件<div class="dot"></div></button></a>
-        <a href="/"><button class="custom-btn btn-11" >保存上传<div class="dot"></div></button></a>
+        <form method="POST" action="/execute">
+            <button type="submit">上传</button>
+        </form>
+        {% if output %}
+            <h2>Output:</h2>
+            <pre>{{ output }}</pre>
+        {% endif %}
     </div>
 
     <table>

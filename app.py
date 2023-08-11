@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify, send_from_directory, render_template, redirect, url_for, session, make_response, send_file
 from datetime import datetime
+import subprocess
 import requests
 import json
 import os
@@ -102,7 +103,17 @@ def edit(id):
         return render_template('edit.html', nav=row)
 
 
-# 编辑导航
+# 上传git
+@app.route('/execute', methods=['POST'])
+def execute_command():
+    if request.method == 'POST':
+        # 执行 "go" 命令
+        commit_message = 'Commit message here'
+
+        subprocess.run(['git', 'add', '.'])
+        subprocess.run(['git', 'commit', '-m', commit_message])
+        subprocess.run(['git', 'push'])
+        return render_template('index.html', output=output)
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5888)
