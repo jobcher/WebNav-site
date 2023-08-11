@@ -103,6 +103,10 @@
       logo: web-check.png
       url: https://web-check.xyz/
       description: 网络检查,适用于任何网站的全面的、按需的开源情报
+    - title: ipinfo
+      logo: ipinfo.png
+      url: https://ipinfo.io/
+      description: 用于出口IP查询，显示真实IP信息
   - term: 人工智能
     links:
     - title: Pandora
