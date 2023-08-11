@@ -24,8 +24,6 @@ jobs:
           go run main.go
       - name: Commit files
         run: |
-          git checkout dev
-          git branch -a
           git config --local user.email "13028911306@163.com"
           git config --local user.name "jobcher"
           git add .
