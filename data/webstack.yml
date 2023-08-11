@@ -32,6 +32,10 @@
       logo: 电影天堂.png
       url: https://400mov.com/
       description: 400影视，无广告（内含福利）
+    - title: Crash Course 中文字幕组
+      logo: crash-course.png
+      url: https://crashcourse.club/
+      description: Crash Course 中文字幕组是一个翻译了几百集国外高质量视频课程的完全免费学习网站
   - term: 游戏资源
     links:
     - title: humblebundle
