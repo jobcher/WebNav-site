@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>修改导航</title>
+</head>
+
+<body>
+    <form method="POST" enctype="multipart/form-data" action="{{ url_for('edit', id=nav[0])}}">
+        <header>
+            <h1>修改导航</h1>
+            <link rel="stylesheet" href="/static/system.css">
+        </header>
+
+        <div>
+            <label class="desc" id="title1" for="title">标题：</label>
+            <div>
+                <input name="title" id="Field1" type="text" class="field text fn" value="{{ nav[1] }}" size="8" tabindex="1">
+            </div>
+        </div>
+
+        <div>
+            <label class="desc" id="title1" for="url">url：</label>
+            <div>
+                <input name="url" id="Field1" type="text" class="field text fn" value="{{ nav[3] }}" size="8" tabindex="1">
+            </div>
+        </div>
+        <div>
+            <label class="desc" id="title1" for="description">描述：</label>
+            <div>
+                <input name="description" id="Field1" type="text" class="field text fn" value="{{ nav[4] }}" size="8" tabindex="1">
+            </div>
+        </div>
+        <div>
+            <label class="desc" id="title1" for="term">分类：</label>
+            <div>
+                <input name="term" id="Field1" type="text" class="field text fn" value="{{ nav[5] }}" size="8" tabindex="1">
+            </div>
+        </div>
+        <div>
+            <label class="desc" id="title1" for="taxonomy">类别：</label>
+            <div>
+                <input name="taxonomy" id="Field1" type="text" class="field text fn" value="{{ nav[6] }}" size="8" tabindex="1">
+            </div>
+        </div>
+        <div>
+            <label class="desc" id="title1" for="icon">icon：</label>
+            <div>
+                <input name="icon" id="Field1" type="text" class="field text fn" value="{{ nav[7] }}" size="8" tabindex="1">
+            </div>
+        </div>
+
+        <div>
+            <img src="/static/images/{{ nav[2] }}" width="100">
+            <div>
+                <input type="file" id="Field1" name="logo">
+            </div>
+        <div>
+            <div>
+                <input id="saveForm" name="saveForm" type="submit" value="保存">
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

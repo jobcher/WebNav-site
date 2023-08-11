@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+
+<body>
+    <div>
+        <h2>导航列表</h2>
+        <a href="{{ url_for('add') }}"><button class="custom-btn btn-11" >添加导航<div class="dot"></div></button></a>
+        <a href="/"><button class="custom-btn btn-11" >生成导航文件<div class="dot"></div></button></a>
+        <a href="/"><button class="custom-btn btn-11" >保存上传<div class="dot"></div></button></a>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">id</th>
+                <th scope="col">标题</th>
+                <th scope="col">url</th>
+                <th scope="col">logo</th>
+                <th scope="col">描述</th>
+                <th scope="col">分类</th>
+                <th scope="col">类别</th>
+                <th scope="col">icon</th>
+                <th scope="col">操作</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for nav in navs %}
+
+            <tr>
+                <td data-label="id">{{ nav[0] }}</td>
+                <td data-label="标题">{{ nav[1] }}</td>
+                <td data-label="url"><a href="{{ nav[3] }}">链接</a></td>
+                <td data-label="logo"><img src="/static/images/{{ nav[2] }}" width="50"></td>
+                <td data-label="描述">{{ nav[4] }}</td>
+                <td data-label="分类">{{ nav[5] }}</td>
+                <td data-label="类别">{{ nav[6] }}</td>
+                <td data-label="icon">{{ nav[7] }}</td>
+                <td data-label="操作">
+                    <a href="{{ url_for('edit', id=nav[0]) }}">编辑</a>
+                    <a href="{{ url_for('delete', id=nav[0]) }}">删除</a>
+                </td>
+            </tr>
+                
+                {% endfor %}
+
+        </tbody>
+
+    </table>
+
+</body>
+
+</html>
