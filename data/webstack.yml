@@ -99,6 +99,10 @@
       logo: oracle.png
       url: https://cloud.oracle.com/
       description: Oracle-Cloud云服务，提供免费云服务器
+    - title: Web-Check
+      logo: web-check.png
+      url: https://web-check.xyz/
+      description: 网络检查,适用于任何网站的全面的、按需的开源情报
   - term: 人工智能
     links:
     - title: Pandora
