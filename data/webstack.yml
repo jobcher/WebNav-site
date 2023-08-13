@@ -115,6 +115,10 @@
       logo: ipinfo.png
       url: https://ipinfo.io/
       description: 用于出口IP查询，显示真实IP信息
+    - title: Github
+      logo: github.png
+      url: https://www.github.com/
+      description: Github全球最大同性交流平台，开源社区
   - term: 人工智能
     links:
     - title: Pandora
@@ -145,7 +149,7 @@
       url: http://daily.cnnb.com.cn/
       description: 宁波日报电子报刊
     - title: 人民日报
-      logo: renming.jfif
+      logo: renmingribao.png
       url: http://www.people.com.cn/
       description: 人民日报，党报
   - term: 国外新闻
@@ -159,7 +163,7 @@
       url: https://www.bbc.com/zhongwen/simp
       description: BBC中文新闻站
     - title: 华尔街日报
-      logo: wsj.png
+      logo: huaerjieribao.png
       url: https://cn.wsj.com/
       description: 华尔街日报中文版
     - title: VOA
