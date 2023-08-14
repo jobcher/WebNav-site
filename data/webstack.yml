@@ -119,12 +119,20 @@
       logo: github.png
       url: https://www.github.com/
       description: Github全球最大同性交流平台，开源社区
+    - title: 钉钉企典
+      logo: dingding.png
+      url: https://dingtalk.com/qidian/
+      description: 阿里巴巴推出的免费企业查询平台，相比其它企业查询平台，钉钉企典完全免费。
   - term: 人工智能
     links:
     - title: Pandora
       logo: chatgpt.png
       url: https://chat.zhile.io/
       description: 潘多拉 (Pandora)，一个让你呼吸顺畅的 ChatGPT
+    - title: ai 代码转换
+      logo: aicode.png
+      url: https://aicodeconvert.com/
+      description: 该网站可以将一种语言的程序，转换成另一种语言。用户也可以描述想要什么程序，它来生成代码。
   - term: 开源项目
     links:
     - title: FaceChain
@@ -189,3 +197,7 @@
       logo: runmeiguo.png
       url: https://www.meiguo.run/
       description: 润美国网是一个美国移民第一门户网站，专门收集最新移民美国实操攻略信息
+    - title: 研报客
+      logo: yanbaoke.png
+      url: https://www.yanbaoke.com/
+      description: 免费百万行业研究报告下载，一站式提供全球各行各业的研究报告阅读
