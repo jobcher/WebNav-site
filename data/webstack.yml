@@ -125,6 +125,12 @@
       logo: chatgpt.png
       url: https://chat.zhile.io/
       description: 潘多拉 (Pandora)，一个让你呼吸顺畅的 ChatGPT
+  - term: 开源项目
+    links:
+    - title: FaceChain
+      logo: facechain.jpg
+      url: https://github.com/modelscope/facechain
+      description: FaceChain是一个可以用来打造个人数字形象的深度学习模型工具。用户仅需要提供最低三张照片即可获得独属于自己的个人形象数字替身。
 - taxonomy: 最新资讯
   icon: fas fa-pencil-alt fa-lg
   list:
