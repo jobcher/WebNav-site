@@ -38,19 +38,28 @@
             </div>
         </div>
 
-
+        <!-- icon -->
         <div>
-            <label class="desc" id="title1" for="taxonomy">类别：</label>
-            <div>
-                <input name="taxonomy" id="Field1" type="text" class="field text fn" value="" size="8" tabindex="1">
-            </div>
+            <label for="taxonomy">选择类别:</label>
+            <select id="taxonomy" name="taxonomy">
+                <option value="技术工具">技术工具</option>
+                <option value="福利分享">福利分享</option>
+                <option value="最新资讯">最新资讯</option>
+                <option value="每日资源">每日资源</option>
+                <option value="个人网站">个人网站</option>
+            </select>
         </div>
-
+        
+        <!-- icon -->
         <div>
-            <label class="desc" id="title1" for="icon">icon：</label>
-            <div>
-                <input name="icon" id="Field1" type="text" class="field text fn" value="" size="8" tabindex="1">
-            </div>
+            <label for="icon">选择图标:</label>
+            <select id="icon" name="icon">
+                <option value="far fa-folder-open fa-lg">技术工具</option>
+                <option value="fas fa-film fa-lg">福利分享</option>
+                <option value="fas fa-pencil-alt fa-lg">最新资讯</option>
+                <option value="fas fa-flask fa-lg">每日资源</option>
+                <option value="far fa-star">个人网站</option>
+            </select>
         </div>
 
         <input type="file" name="logo">
