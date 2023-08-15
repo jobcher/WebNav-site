@@ -123,6 +123,10 @@
       logo: dingding.png
       url: https://dingtalk.com/qidian/
       description: 阿里巴巴推出的免费企业查询平台，相比其它企业查询平台，钉钉企典完全免费。
+    - title: vercel
+      logo: vercel.png
+      url: https://vercel.com/
+      description: Vercel 它是一个免费的网站托管平台， vercel 充当你免费的服务器。 不仅仅可以部署静态网站， 而且还可以部署动态网站
   - term: 人工智能
     links:
     - title: Pandora
