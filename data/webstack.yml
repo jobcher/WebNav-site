@@ -137,6 +137,10 @@
       logo: aicode.png
       url: https://aicodeconvert.com/
       description: 该网站可以将一种语言的程序，转换成另一种语言。用户也可以描述想要什么程序，它来生成代码。
+    - title: OpenAI
+      logo: chatgpt.png
+      url: http://www.openai.com/
+      description: OpenAI 是营利性公司 OpenAI LP，其母公司是非营利组织 OpenAI Inc
   - term: 开源项目
     links:
     - title: FaceChain
@@ -156,6 +160,10 @@
       logo: v2ex.png
       url: https://www.v2ex.com/?r=jobcher
       description: V2EX开发者论坛
+    - title: Dragon Guide
+      logo: dragon-guide.png
+      url: https://www.dragon-guide.net/hangye/Customs.htm
+      description: Dragon Guide（龙之向导）是一个全球常用海关网站集合的导航网站，专门收集全球常用的海关网站、全球海关数据网站
   - term: 国内新闻
     links:
     - title: 新华社
@@ -205,3 +213,7 @@
       logo: yanbaoke.png
       url: https://www.yanbaoke.com/
       description: 免费百万行业研究报告下载，一站式提供全球各行各业的研究报告阅读
+    - title: HodlSoftware
+      logo: HodlSoftware.png
+      url: https://www.pdftool.org/zh
+      description: HodlSoftware是一款免费在线PDF工具箱
