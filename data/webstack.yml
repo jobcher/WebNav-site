@@ -147,6 +147,10 @@
       logo: facechain.jpg
       url: https://github.com/modelscope/facechain
       description: FaceChain是一个可以用来打造个人数字形象的深度学习模型工具。用户仅需要提供最低三张照片即可获得独属于自己的个人形象数字替身。
+    - title: GoBackup
+      logo: gobackup.png
+      url: https://gobackup.github.io/
+      description: GoBackup是一款针对应用服务器设计的全栈备份工具，用于将您的数据库、文件备份到云存储（本地磁盘、FTP、SCP、S3、GCS、阿里云OSS...）
 - taxonomy: 最新资讯
   icon: fas fa-pencil-alt fa-lg
   list:
