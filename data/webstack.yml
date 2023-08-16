@@ -155,6 +155,10 @@
       logo: github.png
       url: https://github.com/longbridgeapp/longbridge-terminal
       description: 命令行，终端里观看股市数据
+    - title: network_proxy_flutter
+      logo: github.png
+      url: https://github.com/wanghongenpin/network_proxy_flutter
+      description: 开源免费抓包软件ProxyPin，支持全平台系统，用flutter框架开发
 - taxonomy: 最新资讯
   icon: fas fa-pencil-alt fa-lg
   list:
