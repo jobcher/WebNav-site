@@ -127,6 +127,18 @@
       logo: vercel.png
       url: https://vercel.com/
       description: Vercel 它是一个免费的网站托管平台， vercel 充当你免费的服务器。 不仅仅可以部署静态网站， 而且还可以部署动态网站
+    - title: zapier
+      logo: Zapier.png
+      url: https://zapier.com/
+      description: Zapier 是一个在线自动化工具，通过称为Zaps的简单工作流程，促进不同网络应用程序之间数据的无缝传输
+    - title: apifox
+      logo: apifox.jpeg
+      url: https://app.apifox.com/
+      description: apifox在线接口测试平台
+    - title: Convertio
+      logo: Convertio.png
+      url: https://convertio.co/zh/
+      description: Convertio是一个用户友好的在线文件转换工具。
   - term: 人工智能
     links:
     - title: Pandora
