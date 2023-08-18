@@ -171,6 +171,10 @@
       logo: github.png
       url: https://github.com/wanghongenpin/network_proxy_flutter
       description: 开源免费抓包软件ProxyPin，支持全平台系统，用flutter框架开发
+    - title: Vue-Layout 可视化布局
+      logo: github.png
+      url: https://jaweii.github.io/Vue-Layout/dist/#/
+      description: 基于UI组件的Vue可视化布局、生成.vue代码的工具
 - taxonomy: 最新资讯
   icon: fas fa-pencil-alt fa-lg
   list:
