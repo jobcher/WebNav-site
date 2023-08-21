@@ -19,6 +19,10 @@
       logo: jellyfin.jfif
       url: https://video.jobcher.com/
       description: 家庭视频资源，如要开通请联系我
+    - title: 网道
+      logo: wangdoc.png
+      url: https://wangdoc.com/
+      description: 网道（WangDoc.com）是一个文档网站，提供互联网开发文档
 - taxonomy: 福利分享
   icon: fas fa-film fa-lg
   list:
