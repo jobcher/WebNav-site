@@ -76,6 +76,10 @@
       logo: kindle.jfif
       url: https://www.amazon.com/sendtokindle
       description: kindle(美区)发送地址，最大200MB
+    - title: 妙佑医疗
+      logo: miaoyou.jpg
+      url: https://www.mayoclinic.org/zh-hans
+      description: 全美第一，医疗查询
 - taxonomy: 技术工具
   icon: far fa-folder-open fa-lg
   list:
