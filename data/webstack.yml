@@ -165,6 +165,10 @@
       logo: chatgpt.png
       url: http://www.openai.com/
       description: OpenAI 是营利性公司 OpenAI LP，其母公司是非营利组织 OpenAI Inc
+    - title: Bard
+      logo: bard.webp
+      url: https://bard.google.com/
+      description: google 人工智能服务
   - term: 开源项目
     links:
     - title: FaceChain
