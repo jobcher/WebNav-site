@@ -147,6 +147,10 @@
       logo: Convertio.png
       url: https://convertio.co/zh/
       description: Convertio是一个用户友好的在线文件转换工具。
+    - title: docsearch
+      logo: dosearch.png
+      url: ' https://docsearch.algolia.com/'
+      description: Algolia 为开源项目提供的免费搜索服务
   - term: 人工智能
     links:
     - title: Pandora
