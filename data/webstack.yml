@@ -208,6 +208,10 @@
       logo: dragon-guide.png
       url: https://www.dragon-guide.net/hangye/Customs.htm
       description: Dragon Guide（龙之向导）是一个全球常用海关网站集合的导航网站，专门收集全球常用的海关网站、全球海关数据网站
+    - title: websocket在线测试
+      logo: websocket.png
+      url: http://www.easyswoole.com/wstool.html
+      description: websocket在线测试工具
   - term: 国内新闻
     links:
     - title: 新华社
