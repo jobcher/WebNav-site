@@ -169,6 +169,10 @@
       logo: bard.webp
       url: https://bard.google.com/
       description: google 人工智能服务
+    - title: Nvidia 人工智能
+      logo: 02-nvidia-logo-color-grn-500x200-4c25-p@2x.png
+      url: https://catalog.ngc.nvidia.com/orgs/nvidia/teams/playground/models/codellama
+      description: Code Llama在线体验
   - term: 开源项目
     links:
     - title: FaceChain
